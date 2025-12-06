@@ -105,16 +105,8 @@ k = ['join-with up', 'mode main']
 l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
-if.app-id = 'org.alacritty'
-run = 'move-node-to-workspace A'
-
-[[on-window-detected]]
 if.app-id = 'net.kovidgoyal.kitty'
 run = 'move-node-to-workspace A'
-
-[[on-window-detected]]
-if.app-id = 'org.mozilla.firefox'
-run = 'move-node-to-workspace B'
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome'
@@ -123,10 +115,6 @@ run = 'move-node-to-workspace B'
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
 run = 'move-node-to-workspace S'
-
-[[on-window-detected]]
-if.app-id = 'org.keepassxc.keepassxc'
-run = 'move-node-to-workspace K'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
@@ -139,10 +127,6 @@ run = 'move-node-to-workspace G'
 [[on-window-detected]]
 if.app-id = 'com.figma.Desktop'
 run = 'move-node-to-workspace F'
-
-[[on-window-detected]]
-if.app-id = 'com.spikehd.dorion'
-run = 'move-node-to-workspace D'
 
 [[on-window-detected]]
 if.app-id = 'com.obsproject.obs-studio'
@@ -173,3 +157,6 @@ run = 'layout floating'
 if.app-id = 'com.google.Chrome'
 if.window-title-regex-substring = 'DevTools'
 run = 'layout floating'
+
+
+
