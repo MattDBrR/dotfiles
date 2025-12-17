@@ -1,1 +1,27 @@
-theme = Vague
+# Ghostty config — Tokyo Night Deep Black
+
+# Core colors (near OLED)
+background = 050505
+foreground = c0caf5
+cursor-color = c0caf5
+
+# Selection (subtle, not blue-heavy)
+selection-background = 1a1b26
+selection-foreground = c0caf5
+
+# Transparency (optional, subtle)
+background-opacity = 0.92
+background-blur = false
+
+# Font
+font-family = "DM Mono"
+font-size = 15
+
+# UI / behavior
+gtk-titlebar = false
+confirm-close-surface = false
+shell-integration-features = no-cursor,no-sudo,no-title
+
+# Disable Ctrl+Enter fullscreen keybind
+keybind = ctrl+enter=unbind
+
